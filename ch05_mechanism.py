@@ -6,7 +6,7 @@ class Hyparms():
     def __init__(self):
         self.batch_size = 128
         self.learning_rate = 0.1
-        self.max_steps = 200
+        self.max_steps = 20000
         self.log_dir = 'logs'
         self.input_data_dir = 'MNIST_data'
         self.dropout_rate = 1
